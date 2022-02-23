@@ -6,6 +6,5 @@ def blog_view(request):
 
 
 def blog_single(request):
-    context = {'title': 'sdsfasdas','content' : 'saaaaaaaaaaaaaaaaaasadsadsadsadsa'}
-    return render(request, 'blog/blog-single.html',context)
+    return render(request, 'blog/blog-single.html')
 
